@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "monteserrat" ,sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:wght@400;800&family=Work+Sans:ital@0;1&display=swap');
+
 
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 .main{
@@ -102,7 +100,7 @@ ul li a:hover{
 
  .right-side a, button{
     
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
  }
 
@@ -171,5 +169,34 @@ ul li a:hover{
     
     
 } 
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.footer-col  p4, p5{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.social-icon{
+     word-spacing: 2px; 
+     position: relative;
+     left: 15px;
+}
 
   
