@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:wght@400;800&family=Work+Sans:ital@0;1&display=swap');
 
 
@@ -50,72 +51,59 @@ ul li a:hover{
     color: red;
 }
 
-.order-section{
-    background-image: url('images/orderbg.webp');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding: 40px 0;
-}
-
-.order-section h1{
-    text-align: center;
-    color: #ddd;
-}
-
- .border{
-    width: 100px;
-    height: 10px;
-    margin: 30px auto;
-} 
-
-.order-form{
-    max-width: 600px;
-    margin: auto;
-    padding: 0 10px;
-    overflow: hidden;
-}
-
-.order-form-text{
-    display: block;
-    width: 100%;
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 16px 0;
-    border: 0;
-    background: #1d1d1d;
-    padding: 20px 40px;
-    font-size: 18px;
-    border-radius: 5px;
-    color: #ddd;
-}
-
-.order-form-text:hover{
-    box-shadow: 0 0 10px 4px #34495e;
-}
-
-textarea .order-form-text{
-
-    height: 120px;
-}
-
-.order-form-btn{
-    float: right;
-    border: 0;
-    background: #1d1d1d;
+  }
+  
+  /* Styles for header */
+  header {
+    background-color: #333;
     color: #fff;
-    padding: 12px 50px;
-    border-radius: 10px;
-    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for main section */
+  main {
+    padding: 20px;
+    background-color: #f5efef;
+    
+  }
+  
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
     font-weight: bold;
-}
-
-.order-form-btn:hover{
-    background: #1e2225;
-}
-
-
-.footer{
+    font-size: 18px;
+  }
+  
+  .footer{
     background-color: #161616;
     padding: 70px 0;
     margin-top: 30px;
@@ -201,3 +189,5 @@ textarea .order-form-text{
      word-spacing: 2px; 
      
 }
+
+  
