@@ -86,15 +86,59 @@ ul li a:hover{
   
   input,
   textarea {
-    width: 100%;
+    width: 70%;
     padding: 5px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ecdddd;
   }
   
+
+/* Styling for payment mode labels */
+label[for="payment-mode"] {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for payment mode radio buttons */
+  input[type="radio"] {
+    display: none; 
+  }
+  
+  /* Styling for custom radio buttons */
+    input[type="radio"] + label {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+  input[type="radio"]:checked + label {
+    background-color: #2e2d2d;
+    
+  } */
+  
+  /* Styling for payment platforms select box */
+   #payment-platforms {
+    margin-top: 10px;
+  }
+  
+  label[for="platform"] {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select#platform {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } 
+ 
   button {
     background-color: #333;
-    color: #fff;
+    color: #f4ecec;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
