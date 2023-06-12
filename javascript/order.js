@@ -31,36 +31,3 @@ document.getElementById("order-form").addEventListener("submit", function(e) {
 
 
 
-// // // Add event listener to payment mode radio buttons
-// onlinePaymentRadio.addEventListener('change', togglePaymentPlatforms);
-// codPaymentRadio.addEventListener('change', togglePaymentPlatforms);
-
-// // // Function to toggle visibility of payment platforms based on the selected payment mode
-// function togglePaymentPlatforms() {
-//   if (onlinePaymentRadio.checked) {
-//     paymentPlatforms.style.display = 'block';
-//   } else {
-//     paymentPlatforms.style.display = 'none';
-//   }
-// }
-//  // Get the payment mode radio buttons and the payment platform dropdown element
-// const onlinePaymentRadio = document.getElementById('online-payment');
-// const codPaymentRadio = document.getElementById('cod-payment');
-// const paymentPlatforms = document.getElementById('payment-platforms');
-
-// // // Add event listener to payment mode radio buttons
-// onlinePaymentRadio.addEventListener('change', togglePaymentPlatforms);
-// codPaymentRadio.addEventListener('change', togglePaymentPlatforms);
-
-// // // Function to toggle visibility of payment platforms based on the selected payment mode
-// function togglePaymentPlatforms() {
-//   if (onlinePaymentRadio.checked) {
-//     paymentPlatforms.style.display = 'block';
-//   } else {
-//     paymentPlatforms.style.display = 'none';
-//   }
-// }
-
-// // Call the function initially to set the initial visibility based on the default checked payment mode
-//  togglePaymentPlatforms();
-
